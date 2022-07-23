@@ -1,0 +1,68 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* COMPONENT STYLES */
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.938em; /* 15px */
+  max-width: 90%;
+  height: 70%;
+}
+
+.imgContainer {
+  text-align: center;
+  margin: 0.938em 0 0.938em 0; /* 15px */
+}
+
+.qrImage {
+  max-width: 90%;
+  border-radius: 0.938em; /* 15px */
+}
+
+.text-container {
+  padding: 0 1.875em 0 1.25em; /* 30px, 20px */
+}
+
+.heading {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.25rem; /* 20px */
+  text-align: center;
+  padding: 0 1.25em; /* 20px */
+  line-height: 1.2;
+}
+
+.body-text {
+  color: hsl(220, 15%, 55%);
+  font-size: 0.938rem; /* 15px */
+  text-align: center;
+  padding: 0 0.938em; /* 15px */
+  line-height: 1.2;
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  padding-top: 1.25em; /* 20px */
+  font-size: 0.688rem; /* 11px */
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
