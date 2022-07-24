@@ -1,5 +1,5 @@
 html {
-  font-size: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -21,13 +21,13 @@ body {
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.938em; /* 15px */
-  max-width: 90%;
-  height: 70%;
+  max-width: 85%;
+  padding-bottom: 5%;
 }
 
 .imgContainer {
   text-align: center;
-  margin: 0.938em 0 0.938em 0; /* 15px */
+  margin: 0.938em 0 1.25em 0; /* 15px 20px */
 }
 
 .qrImage {
@@ -36,22 +36,23 @@ body {
 }
 
 .text-container {
-  padding: 0 1.875em 0 1.25em; /* 30px, 20px */
+  padding: 0 5% 0 5%;
 }
 
 .heading {
   color: hsl(218, 44%, 22%);
+  font-weight: 700;
   font-size: 1.25rem; /* 20px */
   text-align: center;
-  padding: 0 1.25em; /* 20px */
   line-height: 1.2;
+  padding: 0 7%;
 }
 
 .body-text {
   color: hsl(220, 15%, 55%);
   font-size: 0.938rem; /* 15px */
   text-align: center;
-  padding: 0 0.938em; /* 15px */
+  padding: 0 5%;
   line-height: 1.2;
 }
 
@@ -65,4 +66,27 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1200px) {
+  .card {
+    max-width: 25%;
+    padding-bottom: 2%;
+  }
+
+  .text-container {
+    padding: 0;
+  }
+
+  .heading {
+    font-size: 1.563rem; /* 25px */
+    padding: 0 5%;
+  }
+
+  .body-text {
+    font-size: 0.938rem; /* 15px */
+    padding: 0 15%;
+  }
 }
